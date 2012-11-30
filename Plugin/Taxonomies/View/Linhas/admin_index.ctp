@@ -21,5 +21,4 @@
     </table>
     
     <?=$this->element('Painel.paginator')?>
-
 </fieldset>
