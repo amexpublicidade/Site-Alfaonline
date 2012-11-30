@@ -1,0 +1,184 @@
+@import "default";
+
+.noticias {
+    
+    .titulo {
+        color:@blue;
+        border-bottom:4px solid @blue;
+    }
+    
+    .principais{
+        .principal {
+            a {
+                .content {
+                    background:@blue;
+                }
+            }
+        }
+    }
+    
+    .noticia {
+        border-bottom:4px solid @blue;
+        .title {
+                color:@blue;
+        }
+        .time {
+            border-top:1px solid @blue;
+        }
+    }
+    
+}
+
+.mestre {
+    .title {
+        color:@blue;
+        border-bottom:4px solid @blue;
+    }
+    .professor {
+       &.idiomas { 
+           .name{
+               color:@idiomas; border-bottom:4px solid @idiomas; 
+           }
+       }
+       &.bilingue { 
+           .name{
+                color:@bilingue; border-bottom:4px solid @bilingue; 
+           }
+       }
+       &.infantil { 
+           .name{
+               color:@infantil; border-bottom:4px solid @infantil; 
+           }
+       }
+       &.fd1 { 
+           .name{
+                color:@fd1; border-bottom:4px solid @fd1; 
+           }
+       }
+       &.fd2 { 
+           .name{
+                color:@fd2; border-bottom:4px solid @fd2; 
+           }
+       }
+       &.medio { 
+           .name{
+                color:@medio; border-bottom:4px solid @medio; 
+           }
+       }
+       &.vestibular{ 
+           .name{
+                 color:@vestibular; border-bottom:4px solid @vestibular; 
+           }
+       }
+       &.high{ 
+           .name{
+                color:@high; border-bottom:4px solid @high; 
+           }
+       }
+     }
+}
+
+.many-news {
+    margin-top:25px;
+    .title {
+        display:block;
+        .aller(12px,bl);
+        padding-bottom:5px;
+    }
+    .news {
+        display:block;
+        font-style:italic;
+        font-size:12px;
+        margin-top:15px;
+        padding-bottom:15px;
+    }
+    
+    .idiomas{ 
+        .title{
+            color:@idiomas;
+            border-bottom:4px solid @idiomas;
+        }
+        .news {
+            color:@idiomas;
+            border-bottom:1px solid @idiomas;
+        }
+    }
+    
+    .bilingue{ 
+        .title{
+            color:@bilingue;
+            border-bottom:4px solid @bilingue;
+        }
+        .news {
+            color:@bilingue;
+            border-bottom:1px solid @bilingue;
+        }
+    }
+    
+    .infantil{ 
+        .title{
+            color:@infantil;
+            border-bottom:4px solid @infantil;
+        }
+        .news {
+            color:@infantil;
+            border-bottom:1px solid @infantil;
+        }
+    }
+    
+    .fd1{ 
+        .title{
+            color:@fd1;
+            border-bottom:4px solid @fd1;
+        }
+        .news {
+            color:@fd1;
+            border-bottom:1px solid @fd1;
+        }
+    }
+    
+    .fd2{ 
+        .title{
+            color:@fd2;
+            border-bottom:4px solid @fd2;
+        }
+        .news {
+            color:@fd2;
+            border-bottom:1px solid @fd2;
+        }
+    }
+    
+    .medio{ 
+        .title{
+            color:@medio;
+            border-bottom:4px solid @medio;
+        }
+        .news {
+            color:@medio;
+            border-bottom:1px solid @medio;
+        }
+    }
+    
+    .vestibular{ 
+        .title{
+            color:@vestibular;
+            border-bottom:4px solid @vestibular;
+        }
+        .news {
+            color:@vestibular;
+            border-bottom:1px solid @vestibular;
+        }
+    }
+    
+    .high{ 
+        .title{
+            color:@high;
+            border-bottom:4px solid @high;
+        }
+        .news {
+            color:@high;
+            border-bottom:1px solid @high;
+        }
+    }
+    
+}

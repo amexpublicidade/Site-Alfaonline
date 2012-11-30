@@ -1,0 +1,60 @@
+@import "default";
+
+.noticias {
+    
+    .titulo {
+        color:@idiomas;
+        border-bottom:4px solid @idiomas;
+    }
+    
+    .principais{
+        .principal {
+            a {
+                .content {
+                    background:@idiomas;
+                }
+            }
+        }
+    }
+    
+    .noticia {
+        border-bottom:4px solid @idiomas;
+        .title {
+                color:@idiomas;
+        }
+        .time {
+            border-top:1px solid @idiomas;
+        }
+    }
+    
+}
+
+.mestre {
+    .title {
+        color:@idiomas;
+        border-bottom:4px solid @idiomas;
+    }
+    .professor {
+        .name{
+            color:@idiomas; border-bottom:4px solid @idiomas; 
+        }
+     }
+}
+
+.element {
+    .title {
+        border-bottom:4px solid @idiomas;
+        color:@idiomas;
+    }
+    .first {
+        .title {
+            border-bottom:1px solid @idiomas;
+            color:@idiomas;
+        }
+    }
+    ul {
+        li {
+            a{ color:@idiomas; }
+        }
+    }
+}
