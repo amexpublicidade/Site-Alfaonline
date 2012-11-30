@@ -1,0 +1,118 @@
+input[type=text],input[type=password],input[type=number],textarea{
+    padding: 5px;
+    border: 1px solid #DDD;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.1);
+    width: 100%;
+    
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+textarea{
+    resize: vertical;
+    min-height: 100px;
+    max-height: 600px;
+}
+
+div.input{
+    margin-top: 30px;
+}
+
+.submit{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.submit>input{
+    padding: 5px;
+    background: #000;
+    color:#FFF;
+    border:none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+label{
+    display: block;
+}
+
+legend{
+    background: #EEE;
+    border: 1px solid #CCC;
+    margin-left: 10px;
+    padding: 5px;
+    
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+select{
+    width:100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding:10px;
+}
+
+div.checkbox label{
+    display: inline;
+}
+
+fieldset.checkbox{
+    margin: 0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+fieldset.checkbox>legend{
+    margin: 0;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+fieldset.checkbox>div.input{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+fieldset.checkbox>div.checkbox{
+    width: 150px;
+    float: left;
+}
+
+fieldset{
+    background:#F5F5F5;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+div.error>input{
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+
+div.error-message{
+    background: url("../img/bgmenu.png");
+    padding: 8px;
+    color: #FFF;
+    
+    opacity: .6;
+    -moz-opacity: .6;
+    -webkit-opacity: .6;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+}
