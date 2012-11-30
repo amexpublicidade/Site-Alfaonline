@@ -18,6 +18,7 @@
             </tr>
             <?PHP endforeach; ?>
         </tbody>
-    </table>    
+    </table>
     <?=$this->element('Painel.paginator')?>    
+    
 </fieldset>
