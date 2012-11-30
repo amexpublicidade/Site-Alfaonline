@@ -11,5 +11,6 @@ class Linha extends TaxonomiesAppModel{
     
     public $actsAs=array(
         'Painel.Slug'=>array('linha'=>'slug'),
-    );    
+    );
+    
 }
