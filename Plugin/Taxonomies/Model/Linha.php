@@ -1,7 +1,7 @@
 <?PHP
 class Linha extends TaxonomiesAppModel{
     
-    public $validata=array(
+    public $validate=array(
         'linha'=>array(
             'notEmpty'=>array('rule'=>'notEmpty','message'=>'Não deixe a linha em branco'),
             'isValid'=>array('rule'=>'/^[\w\d\s-_]+$/u','message'=>'Caracteres inválidos (somente letras, números - ou _)'),
